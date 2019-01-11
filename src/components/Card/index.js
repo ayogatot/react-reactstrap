@@ -24,24 +24,24 @@ const CardStyle = {
 };
 
 const TitleStyle = {
- fontSize:"20px",
- fontWeight:"600"
-}
+  fontSize: "20px",
+  fontWeight: "600"
+};
 
 const SubtitleStyle = {
-  fontSize:"18px",
-  color:"#7d7d7d"
-}
+  fontSize: "18px",
+  color: "#7d7d7d"
+};
 
 const ButtonStyle = {
-    width:"100px",
-    margin:"0 0 30px 30px"
+  width: "100px",
+  margin: "0 0 30px 30px"
 };
 
 const ImageStyle = {
   width: "100%",
-  backgroundSize:"cover",
-  marginBottom:"20px"
+  backgroundSize: "cover",
+  marginBottom: "20px"
 };
 
 const items = [
@@ -75,10 +75,12 @@ const cardList = items.map(item => {
         <CardBody>
           <CardImg style={ImageStyle} src={item.src} alt={item.alt} />
           <CardTitle style={TitleStyle}>{item.alt}</CardTitle>
-          <CardSubtitle style={SubtitleStyle} >{item.caption}</CardSubtitle>
+          <CardSubtitle style={SubtitleStyle}>{item.caption}</CardSubtitle>
           <CardText>{item.text}</CardText>
         </CardBody>
-        <Button style={ButtonStyle} color="primary">More</Button>
+        <Button style={ButtonStyle} color="primary">
+          More
+        </Button>
       </Card>
     </div>
   );
