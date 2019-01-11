@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
-import styled from "styled-components";
-
 
 import Header  from "./components/Header";
 import CarouselSection from "./components/Carousel";
+import MainTop from "./components/MainTop";
 import CardSection from "./components/Card";
-
-const Box = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-`;
+import MainMiddle from "./components/MainMiddle";
+import MainBottom from "./components/MainBottom";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -18,8 +14,11 @@ class App extends Component {
       <div className="App">
         <Header />
         <CarouselSection />
-
-        {/* <CardSection />         */}
+        <MainTop />
+        <MainMiddle />
+        <CardSection />
+        <MainBottom />
+        <Footer />        
       </div>
     );
   }
