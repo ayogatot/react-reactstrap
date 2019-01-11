@@ -12,11 +12,10 @@ const Background = styled.div`
   background-attachment: fixed;
   background-position: center;
   align-items: center;
-  font-family: "Dosis", serif;
+  font-family: "Bungee Inline", cursive;
   flex-direction: column;
   font-size: 35pt;
   color: #1c1c1d;
-  font-weight: 600;
   margin-top: 25px;
 `;
 
