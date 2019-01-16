@@ -1,12 +1,16 @@
 # React Project with Reactstrap
 
-## Available Scripts
+### Install dependecies:
 
-In the project directory, you can run:
+```
+yarn
+```
+### Open [http://localhost:3000](http://localhost:3000) :
 
-### `yarn`
+```
+yarn start
+```
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `yarn start`
+### You can see the documentation :
+* [styled-components](https://www.styled-components.com/)
+* [reactstrap](https://reactstrap.github.io/)
